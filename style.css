@@ -1,0 +1,60 @@
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Gray-500: hsl(0, 0%, 42%);
+  --Gray-950: hsl(0, 0%, 7%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* may change these values later. */
+  /* margin: 0;
+  padding: 0; */
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Figtree", sans-serif, Arial;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.h-full {
+  height: 100vh;
+}
+
+.main {
+  background-color: var(--Yellow);
+}
+
+.card {
+  width: clamp(86%, 1vw, 3rem);
+  background: white;
+  padding: 1.3em;
+  box-shadow: 8px 8px 0 1px var(--Gray-950);
+}
+
+.rounded {
+  border-radius: 1rem;
+}
+
+.border-1-black {
+  border: 1px solid var(--Gray-950);
+}
+
+.article-image {
+  width: 100%;
+}
