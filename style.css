@@ -47,7 +47,7 @@ p {
 }
 
 .card {
-  width: clamp(86%, 1vw, 3rem);
+  width: clamp(10rem, 86%, 26rem);
   background: white;
   padding: 1.5em;
   box-shadow: 8px 8px 0 1px var(--Gray-950);
@@ -81,11 +81,12 @@ p {
   display: inline-block;
   background: var(--Yellow);
   padding: 0.5em 1em;
-  font-size: 0.8rem;
+  font-size: clamp(0.8rem, 1vw + 0.3rem, 0.9rem);
+  border-radius: 0.3em;
 }
 
 .heading {
-  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 1vw + 1em, 1.65rem);
 }
 
 .hover-yellow:hover {
@@ -96,6 +97,10 @@ p {
 
 .text-gray-500 {
   color: var(--Gray-500);
+}
+
+.paragraph {
+  font-size: clamp(1rem, 1vw + 1rem, 1.1rem);
 }
 
 .time {
@@ -123,6 +128,6 @@ p {
 
 .person {
   margin-top: 2em;
-  margin-bottom: 0em;
+  margin-bottom: 0;
   padding: 0;
 }
