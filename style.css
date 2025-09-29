@@ -89,6 +89,9 @@ p {
 .hover-yellow:hover {
   color: var(--Yellow);
   cursor: pointer;
+}
+
+.hover-yellow:active {
   text-decoration: underline;
 }
 
