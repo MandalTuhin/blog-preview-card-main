@@ -83,7 +83,7 @@ p {
 }
 
 .heading {
-  font-size: clamp(1.5rem, 1vw + 1em, 1.65rem);
+  font-size: clamp(1.4rem, 1vw + 1em, 1.65rem);
 }
 
 .hover-yellow:hover {
@@ -97,7 +97,7 @@ p {
 }
 
 .paragraph {
-  font-size: clamp(1rem, 1vw + 1rem, 1.1rem);
+  font-size: clamp(0.98rem, 1vw + 0.4rem, 1.05rem);
 }
 
 .time {
