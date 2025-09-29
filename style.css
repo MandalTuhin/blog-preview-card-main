@@ -27,6 +27,15 @@ p {
   line-height: 1.45;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--Gray-950);
+  border-radius: 2px;
+}
+
 .flex {
   display: flex;
 }
@@ -91,7 +100,7 @@ p {
   cursor: pointer;
 }
 
-.hover-yellow:active {
+.hover-yellow:focus {
   text-decoration: underline;
 }
 
