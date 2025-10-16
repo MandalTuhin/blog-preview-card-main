@@ -48,8 +48,8 @@ a:focus-visible {
   justify-content: center;
 }
 
-.h-full {
-  height: 100vh;
+.min-h-full {
+  min-height: 100vh;
 }
 
 .card {
@@ -146,6 +146,7 @@ a:focus-visible {
   text-align: center;
   margin-bottom: 0.5em;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
